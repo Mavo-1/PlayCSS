@@ -1,0 +1,46 @@
+<style>
+body { background: #21897e }
+
+.circle {background: #69d1c5; float:left; margin: 25px 0 0 25px; height:165px; width:130px; border-radius: 50%;  }
+
+.circleTwo {background: #69d1c5; float:right; margin: 200px 25px 0 0; height:165px; width:130px; border-radius: 50%; }
+
+.rectangle {background: #21897e; height:90px; width: 35px; position: absolute; margin: 60px 0 0 70px}
+.rectangleTwo {background: #21897e; height:90px; width: 35px; position: absolute; margin: 235px 0px 0 285px}
+
+.square {
+   background: #69d1c5;
+   height: 60px;
+   width: 60px;
+   margin:290px 0 0 63px;
+   position:absolute;
+}
+
+.squareTwo {
+   background: #69d1c5;
+   height: 60px;
+   width: 60px;
+   position: absolute;
+   margin: 30px 0 0 260px;
+}
+
+.diamond {
+   background: #69d1c5;
+   height:50px;
+   width:50px;
+   margin:170px;
+   position: absolute;
+   transform: rotate(45deg);
+}
+</style>
+
+
+<div class=circle></div>
+<div class=rectangle></div>
+<div class=circleTwo></div>
+<div class=rectangleTwo></div>
+<div class=square></div>
+<div class=squareTwo></div>
+<div class=diamond></div>
+
+
